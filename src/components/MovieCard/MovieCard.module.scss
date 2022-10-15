@@ -1,0 +1,64 @@
+
+.movie-card{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    display: flex;
+    max-width: 800px;
+    display: flex;
+    overflow: hidden;
+    transition: transform 500ms ease-in-out 25ms;
+}
+
+.movie-card:hover{
+    transform: translateX(-15%);
+    transition: transform 500ms ease-in-out 25ms;
+}
+
+.movie-poster{
+    flex: 0 0 30%;
+}
+
+.movie-poster img{
+    width: 100%;
+    display: block;
+}
+
+
+.movie-info{
+    flex: 1;
+    padding: 10px 30px;
+    display: flex;
+    flex-direction: column;
+}
+
+.movie-title{
+    text-transform: uppercase;
+    text-align: center;
+    margin-top: 30px;
+}
+
+
+span{
+    font-weight: bold;
+}
+
+.cast{
+    text-align: center;
+    margin-bottom: 15px;
+    font-size: 18px;
+}
+
+.year-genre{
+    text-align: center;
+    font-size: 18px;
+    margin-top: 15px;
+    font-weight: bold;
+}
+
+.show-grade{
+    text-align: center;
+    font-size: 18px;
+    margin-top: 15px;
+    font-weight: bold;
+}
